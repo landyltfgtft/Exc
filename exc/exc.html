@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>MDWK</title>
+  <style>
+    body {
+      background-color: #f8c8dc; /* rosa claro */
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+    .card {
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      display: inline-block;
+      margin-top: 50px;
+      padding: 20px;
+      max-width: 400px;
+    }
+    .card img {
+      width: 200px; /* más pequeña */
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+    h1 {
+      color: #d63384;
+    }
+    p {
+      color: #555;
+    }
+    .btn {
+      background-color: #d63384;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 8px;
+      cursor: pointer;
+      margin-top: 15px;
+    }
+    .btn:hover {
+      background-color: #a61d6d;
+    }
+    footer {
+      margin-top: 40px;
+      padding: 10px;
+      background-color: #f1a7c5;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Bienvenido a Exc.html</h1>
+    <img src="tay.jpg" alt="Imagen Tay">
+    <p>Taylor Swift tiene 12 álbumes de estudio desde 2006.</p>
+    <button class="btn" onclick="cambiarFondo()">Cambiar Fondo</button>
+  </div>
+
+  <blockquote style="margin-top:30px; font-style:italic; color:#d63384;">
+    "Su album pop mas famoso fue 1989."
+  </blockquote>
+
+  <footer>
+    © 2026 MDWK.
+  </footer>
+
+  <script>
+    function cambiarFondo() {
+      document.body.style.backgroundColor = "#ffe4ec"; // tono más suave
+    }
+  </script>
+</body>
+</html>
